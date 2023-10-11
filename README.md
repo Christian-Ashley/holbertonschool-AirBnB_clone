@@ -1,9 +1,9 @@
-# holbertonschool-AirBnB_clone
+# Holbertonschool-AirBnB_clone
 
-Purpose
-This projects objectives were to create a functioning command line interpreter for the use of manipulating objects within the AirBnB clone project. The goals were to learn how to make a python package, use modules to create a CLI(command line interpreter), use unit testing, serialize and deserialize a class, write and read a JSON file. use datetime and UUID modules, handle *args and kwargs, and handle named arguments in the function.
+## Purpose
+	This projects objectives were to create a functioning command line interpreter for the use of manipulating objects within the AirBnB clone project. The goals were to learn how to make a python package, use modules to create a CLI(command line interpreter), use unit testing, serialize and deserialize a class, write and read a JSON file. use datetime and UUID modules, handle *args and kwargs, and handle named arguments in the function.
 
-Requirements 
+Requirements :
 - Allowed editors: vi, vim, emacs
 - All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 - All your files should end with a new line
@@ -17,7 +17,7 @@ Requirements
 - All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 - A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 
-Examples of how to use the console
+### Examples of how to use the console
 
 The console can be used in an interactive or non interactive mode.
 
@@ -32,6 +32,27 @@ running ./console.py will open a prompt the user can call functions from
 	(hbnb) 
 	(hbnb) 
 	(hbnb) quit
+	$
+
+Commands may also be executed non-interactively by piping them into the console.
+	$ echo "help" | ./console.py
+	(hbnb)
+
+	Documented commands (type help <topic>):
+	========================================
+	EOF  help  quit
+	(hbnb) 
+	$
+	$ cat test_help
+	help
+	$
+	$ cat test_help | ./console.py
+	(hbnb)
+
+	Documented commands (type help <topic>):
+	========================================
+	EOF  help  quit
+	(hbnb) 
 	$
 
  to exit the console you simply press Ctrl+D
